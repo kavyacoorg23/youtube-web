@@ -1,0 +1,62 @@
+
+.shorts
+{
+  display: flex;
+  align-items: center;
+}
+
+.shorts-logo{
+padding-top:60px;  
+width:25px;
+ display:inline;
+ margin-right:8px;
+}
+.shorts-name{
+ display:inline;
+ font-family:roboto,arial;
+ font-size:20px;
+ font-weight:550;
+ padding-top:60px;
+ 
+ }
+.shorts-grid
+{
+  margin-top:30px;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr ;
+  column-gap: 20px;
+}
+
+.shorts-picture
+{
+  width:210px;
+
+}
+.shorts-img
+{
+  width:100%;
+  border-radius:15px;
+}
+.grid
+{
+display:grid;
+grid-template-columns:1fr 30px;
+
+}
+.more-pic
+{
+  width:25px;
+}
+.shorts-title
+{
+font-family:roboto,arial;
+font-size:16px;
+font-weight:500;
+margin-bottom:8px;
+}
+.shorts-views
+{
+  color:rgb(114, 113, 113);
+  font-size:14px;
+  font-family:roboto,arial;
+}
